@@ -21,6 +21,7 @@ var CORS = extend(Class(Transport, {
         key;
 
     xhr.open('POST', URI.stringify(this.endpoint), true);
+    xhr.withCredentials = true;
 
     if (xhr.setRequestHeader) {
       for (key in headers) {
