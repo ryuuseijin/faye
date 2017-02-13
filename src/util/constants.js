@@ -6,5 +6,5 @@ module.exports = {
   JSONP_CALLBACK:   'jsonpcallback',
   CONNECTION_TYPES: ['long-polling', 'cross-origin-long-polling', 'callback-polling', 'websocket', 'eventsource', 'in-process'],
 
-  MANDATORY_CONNECTION_TYPES: ['long-polling', 'callback-polling', 'in-process']
+  MANDATORY_CONNECTION_TYPES: ['long-polling', 'cross-origin-long-polling', 'callback-polling', 'in-process']
 };
